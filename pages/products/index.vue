@@ -1,21 +1,17 @@
 <template>
   <div>
-    <h2>products</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-      similique quaerat labore. Quo placeat, iste aperiam fuga sit, minus
-      tenetur molestiae, dicta cum commodi dignissimos voluptatem optio unde
-      fugiat. Repellendus?
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-      similique quaerat labore. Quo placeat, iste aperiam fuga sit, minus
-      tenetur molestiae, dicta cum commodi dignissimos voluptatem optio unde
-      fugiat. Repellendus?
-    </p>
+    <div class="grid grid-cols-4 gap-5">
+      <div v-for="p in products">
+        <ProductCard :product="p" />
+      </div>
+    </div>
   </div>
 </template>
 
-<script setup></script>
-
-<style scoped></style>
+<script setup>
+//  fetch the products
+const { data: products } = await useFetch("https://fakestoreapi.com/products");
+definePageMeta({
+  layout: "products",
+});
+</script>
