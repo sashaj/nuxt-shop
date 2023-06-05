@@ -1,4 +1,10 @@
-# Node version
+# Project info
+
+- Purpose: Study
+- Course credits: https://www.youtube.com/playlist?list=PL4cUxeGkcC9haQlqdCQyYmL_27TesCGPC
+- Status: completed on 2nd May 2023
+
+# Dev Node version
 
 16.16.0
 
