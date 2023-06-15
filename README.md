@@ -1,7 +1,7 @@
 # Project info
 
 - Purpose: Study
-- Course credits: https://www.youtube.com/playlist?list=PL4cUxeGkcC9haQlqdCQyYmL_27TesCGPC
+- Course credits: https://www.youtube.com/watch?v=30LWjhZzg50
 - Status: completed on 2nd May 2023
 
 # Dev Node version
